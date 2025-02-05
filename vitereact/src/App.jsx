@@ -1,5 +1,12 @@
+import Demo from "./Demo";
+
 function App() {
-  return <h1>Hello React with vite</h1>;
+  return (
+    <>
+      <Demo />
+      <h1>Hello react with vite!</h1>
+    </>
+  );
 }
 
 export default App;
